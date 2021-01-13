@@ -127,6 +127,14 @@ a {
     margin-right: 200px;
 }
 
+.resum_luff {
+    margin-top: 5rem;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 200px;
+}
+
 .prog_film img {
     width: 500px;
     height: 200px;
@@ -148,6 +156,7 @@ a {
     align-items: flex-end;
     position: fixed;
     font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 .movies .prog_film {
