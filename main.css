@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Right Grotesk;
+    src: url("RightGrotesk-CompactBlack.otf");
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+    color: #ffffff;
+    font-family: 'Right Grotesk', sans-serif;
+    mix-blend-mode: difference;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #000000;
+}
+
+#page1 {
+    display: grid;
+    grid-template-columns: repeat(2);
+}
+
+.luff {
+    width: 50%;
+    margin-left: 5%
+}
+
+.text_luff {
+    writing-mode: vertical-lr;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    height: 160vw;
+}
+
+.dates_luff {
+    position: relative;
+    font-size: 1.5rem;
+    writing-mode: vertical-lr;
+    left: 1rem;
+    top: 3rem;
+}
+
+nav {
+    font-size: 35px;
+    margin-top: 25vh;
+}
+
+nav2 {
+    font-size: 35px;
+    margin-top: 5vh;
+}
+
+a {
+    margin-left: 3%;
+}
+
+a1 {
+    color: red;
+    font-family: 'Right Grotesk', sans-serif;
+    mix-blend-mode: difference;
+    margin-left: 3%;
+}
+
+#page2 {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    margin-left: 180px;
+    margin-top: 200px;
+}
+
+.gallery2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    margin-left: 180px;
+    margin-top: 200px;
+}
+
+.gallery3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    margin-left: 180px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+.gallery img {
+    max-width: 60%;
+}
+
+.gallery2 img {
+    max-width: 60%;
+}
+
+.gallery3 img {
+    max-width: 60%;
+}
+
+.titre_film {
+    margin-top: 40rem;
+}
+
+.paragaphe_luff {
+    margin-top: 30rem;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 200px;
+}
+
+.prog_film img {
+    width: 500px;
+    height: 200px;
+}
+
+tr td {
+    padding: 30px;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .luff {
+        width: 50%;
+        margin-left: 5%
+    }
+
+    .text_luff {
+        writing-mode: vertical-lr;
+        font-size: 1rem;
+        position: absolute;
+        top: 3rem;
+        right: 1rem;
+        height: 160vw;
+    }
+
+    .dates_luff {
+        position: relative;
+        font-size: 1rem;
+        writing-mode: vertical-lr;
+        left: 1rem;
+        top: 3rem;
+    }
+
+    nav {
+        font-size: 20px;
+        margin-top: 40vh;
+    }
+
+    nav2 {
+        font-size: 20px;
+        margin-top: 5vh;
+    }
+
+    a {
+        margin-left: 3%;
+    }
+
+    a1 {
+        color: red;
+        font-family: 'Right Grotesk', sans-serif;
+        mix-blend-mode: difference;
+        margin-left: 3%;
+    }
+
+    #page2 {
+        margin-top: 200px;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 5vw);
+        margin-left: 180px;
+        margin-top: 200px;
+    }
+
+    .gallery2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 5vw);
+        margin-left: 180px;
+        margin-top: 200px;
+    }
+
+    .gallery3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 5vw);
+        margin-left: 180px;
+        margin-top: 200px;
+        margin-bottom: 300px;
+    }
+
+    .gallery img {
+        max-width: 60%;
+    }
+
+    .gallery2 img {
+        max-width: 60%;
+    }
+
+    .gallery3 img {
+        max-width: 60%;
+    }
+
+    .titre_film {
+        margin-top: 40rem;
+    }
+
+    .paragaphe_luff {
+        margin-top: 30rem;
+        text-align: left;
+        font-size: 20px;
+        margin-left: 400px;
+        margin-right: 200px;
+    }
+}
