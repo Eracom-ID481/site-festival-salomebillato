@@ -135,6 +135,10 @@ a {
     margin-right: 200px;
 }
 
+.resum_film img {
+    max-width: 80%;
+}
+
 .prog_film img {
     width: 500px;
     height: 200px;
